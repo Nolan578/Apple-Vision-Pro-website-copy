@@ -1,5 +1,9 @@
 import "../components/style.css";
 import img1 from "../assets/images/Apple vision image.png";
+import design1 from "../assets/images/Desi1.png";
+import design2 from "../assets/images/Desi2.png";
+import design3 from "../assets/images/Desi3.png";
+import design4 from "../assets/images/Desi4.png";
 
 const RootLayout = () => {
   return (
@@ -105,17 +109,29 @@ const RootLayout = () => {
             your face. Light Seal. The Light Seal
           </p>
         </div>
-        <div id="page7">
+        {/* <div id="page7">
           <canvas></canvas>
+        </div> */}
+        <div className="mt-2">
+          <img src={design1} alt="" />
         </div>
-        <div id="page8">
+        <div className="mt-2">
+          <img src={design2} alt="" />
+        </div>
+        <div className="mt-2">
+          <img src={design3} alt="" />
+        </div>
+        <div className="mb-[50px] mt-2">
+          <img src={design4} alt="" />
+        </div>
+        {/* <div id="page8">
           <h1>
             <span>Enclosure</span> A singular piece of three-dimensionally
             formed laminated glass flows into an aluminum alloy frame that
             curves to wrap around your face.
           </h1>
-        </div>
-        <div id="page9">
+        </div> */}
+        {/* <div id="page9">
           <h1>
             <span>Light Seal.</span> The Light Seal gently flexes to conform to
             your face, delivering a precise fit while blocking out stray light.
@@ -127,26 +143,26 @@ const RootLayout = () => {
             breathability, and stretch. The Fit Dial lets you adjust Vision Pro
             precisely to your head.
           </h1>
-        </div>
-        <div id="page11">
+        </div> */}
+        {/* <div id="page11">
           <h1>
             <span> Power. </span>The external battery supports up to 2 hours of
             use, and all‑day use when plugged in.1
           </h1>
-        </div>
-        <div id="page12">
+        </div> */}
+        {/* <div id="page12">
           <h1>
             <span>Sound. </span>Speakers positioned close to your ears deliver
             rich Spatial Audio while keeping you aware of your surroundings.
           </h1>
-        </div>
-        <div id="page13">
+        </div> */}
+        {/* <div id="page13">
           <h1>
             <span>EyeSight.</span> An outward display reveals your eyes while
             wearing Vision Pro, letting others know when you are using apps or
             fully immersed.
           </h1>
-        </div>
+        </div> */}
         <div id="page14">
           <div className="left14"></div>
           <div className="right14"></div>
@@ -271,11 +287,32 @@ const RootLayout = () => {
               hand gestures from a wide range of positions.
             </h5>
           </div>
-          <div id="page23">
+          <div className="mt-[100px] flex w-[100%] items-center justify-center">
             <img
               src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/features/sensors_chips__s805s5o3gkii_medium.jpg"
               alt=""
             />
+          </div>
+          <div className="text-white">
+            <h1 className="text-center text-3xl font-[700]">
+              Revolutionary dual‑chip <br /> performance.
+            </h1>
+            <p className="mt-5 text-center text-[#86868BFF]">
+              A unique dual‑chip design enables the spatial experiences on
+              <br /> Apple Vision Pro. The powerful M2 chip simultaneously runs
+              <br />
+              visionOS, executes advanced computer vision algorithms, and <br />
+              delivers stunning graphics, all with incredible efficiency. And
+              the <br /> brand-new R1 chip is specifically dedicated to process
+              input from the <br /> cameras, sensors, and microphones, streaming
+              images to the displays within 12 milliseconds — for a virtually
+              lag-free, real-time <br /> view of the world.
+            </p>
+            <div className="mt-5 flex items-center justify-center">
+              <button className="rounded-[30px] bg-white px-5 py-3 text-2xl font-[600]  text-black">
+                + Learn more about technology
+              </button>
+            </div>
           </div>
         </div>
       </div>
